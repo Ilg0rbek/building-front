@@ -1,0 +1,103 @@
+.modal_overlay{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.4);
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    z-index: 1;
+}
+.modals{
+    width:  350px;
+    /* height: 300px; */
+    background: #fff;
+    border-radius: 10px;
+}
+.modal_header{
+    width: 100%;
+    background: #83ABF1;
+    border-radius: 10px;
+}
+.modal_header_elements{
+    display: flex;
+    width: 65%;
+    justify-content: space-between;
+    align-items: center;   
+    padding: 0rem  0.5rem;
+}
+.modal_header_elements button{
+    font-size: 30px;
+    padding: 0;
+    background: transparent;
+    color: #fff;
+    border: 1px solid transparent;
+}
+.modal_header_elements p{
+    padding-top: 0.8rem;
+    color: #fff;
+}
+.modal_body{
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+.modal_body form{
+    text-align: end;
+}
+.modal_body form input{
+    border: 1px solid transparent;
+    outline: 1px solid transparent;
+    width: 100%;
+    background-color: #ECECEC;
+    padding: 0.5rem ;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+.modal_body form input:nth-child(2){
+    background: #fff;
+    border: 1px solid #AFAFAF;
+    border-radius: 0;
+}
+.modal_body form textarea{
+    background: #ECECEC;
+    width: 100%;
+    border: 1px solid transparent;
+    outline: 1px solid transparent;
+    padding: 0.7rem 0.4rem;
+    border-bottom-left-radius:10px ;
+    border-bottom-right-radius:10px ;
+}
+.modal_body form input::placeholder, .modal_body form textarea::placeholder{
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: #AFAFAF;
+}
+.modal_body form button{
+    background: #83ABF1;
+    padding: 0.5rem ;
+    border-radius: 10px;
+    border: 1px solid transparent;
+    color: #fff;
+}
+.modal_body form button::after{
+    content: " ";
+    width: 30px;
+    height: 20px;
+    display: inline-block;
+    background: url("../assets/images/Arrow_leo.svg");
+    background-size: 20px;
+    background-repeat: no-repeat;
+    background-position: right;
+    transform: translateY(5px);
+}
+.modal_body input:nth-child(3){
+    border-top-right-radius: 0px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius:10px ;
+    border-bottom-right-radius: 10px;
+    margin-bottom: 0.5rem;
+}

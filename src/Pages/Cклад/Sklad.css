@@ -1,0 +1,114 @@
+.sklad{
+    width: 100%;
+    height: auto;
+}
+.sklad_header{
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5rem 0rem;
+}
+.sklad_header h2{
+    font-size: 30px;
+    font-weight: 700;
+}
+.sklad_header_image img:nth-child(2){
+    padding-left: 1rem;
+}
+.sklad_form_parent{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.sklad_form{
+    width: 85%;
+    background: #fff;
+    padding: 0.2rem;
+    border: 1px solid transparent;
+    border-radius: 10px;
+}
+.sklad_form input{
+    border: 1px solid transparent;
+    outline: 1px solid transparent;   
+}
+#sklad_form_icon{
+    padding: 0rem 0.5rem 0.3rem;
+    color: #AFAFAF;
+}
+.sklad_form_parent button{
+    background: #83ABF1;
+    border: 1px solid transparent;
+    outline: 1px solid transparent;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border-radius: 10px;
+}
+.sklad_cards{
+    width: 100%;
+    height: auto;
+    margin-top: 1rem;
+    padding: 0;
+}
+.sklad_cards li{
+    width: 100%;
+    background: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem;
+    padding-bottom: 0;
+    border-radius: 10px;
+    transition: 0.5s ease all;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-top: 1rem;
+}
+.sklad_cards li:hover{
+    background: #D3E1FF
+}
+.sklad_card_uchburchack{
+    border-top: 10px solid #D10303;
+    border-right: 10px solid transparent;
+    /* border-bottom: 10px solid ; */
+    /* border-top: 0; */
+    border-left: 10px solid transparent;
+    position: relative;
+    top: 0.5rem;
+}
+.sklad_card_burchak_1{
+    display: flex;
+    /* align-items: center; */
+}
+.sklad_card_burchak_1 p{
+    padding-left: 0.3rem;
+}
+.sklad_burchaks{
+    display: flex;
+    align-items: center;
+    width: 9%;
+    justify-content: space-between;
+}
+.sklad_burchak_background{
+    background: #E4E4E4;
+    padding: 0.3rem;
+}
+.sklad_burchak_1{
+    border-top: 10px solid #D10303;
+    border-right: 10px solid transparent;
+    border-left: 10px solid transparent;
+}
+.sklad_burchak_2{
+    border-right: 10px solid transparent;
+    border-left: 10px solid  transparent;
+    border-bottom: 10px solid #83D103;
+}
+.sklad_burchaks img{
+    padding-left: 1rem;
+}
+.sklad_burchak_leo{
+    border-right: 10px solid transparent;
+    border-left: 10px solid transparent;
+    border-bottom: 10px solid #83D103;
+    margin-bottom: 1.3rem;
+}

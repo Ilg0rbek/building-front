@@ -1,0 +1,29 @@
+.etaji{
+    width: 100%;
+    height: auto;
+}
+.etaji_cards{
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    padding-top: 1rem;
+}
+.etaji_cards li:nth-child(1){
+    margin-top: 0;
+}
+.etaji_cards li{
+    width: 100%;
+    background: #E3E3E3;
+    padding: 0.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 8px;
+    font-size: 15px;
+    margin-top: 1rem;
+}
+.etaji_cards li p{
+    position: relative;
+    top: 0.3rem;
+}

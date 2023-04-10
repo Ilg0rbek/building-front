@@ -1,0 +1,29 @@
+.zdaniya{
+    width: 100%;
+}
+.zdaniya_titles{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 1rem;
+}
+.zdaniya_card{
+   margin-top: 1rem ;
+   width: 100%;
+   background: #fff; 
+   padding: 1rem;
+   padding-bottom: 0.5rem;
+   border-radius: 10px;
+   display: flex;
+   justify-content: space-between;
+}
+.zdaniya_card_child_2{
+    width: 100%;
+    /* border: 1px solid black; */
+    padding-top: 1rem;
+}
+.zdaniya_card_child_2 li{
+    display: flex;
+    width: 40%;
+    justify-content: space-between;
+}

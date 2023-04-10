@@ -1,0 +1,136 @@
+.sotrudnik_nav{
+    padding: 1rem 0rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.sotrudnik_nav form{
+    width: 85%;
+    background: #fff;
+    display: flex;
+    align-items: center;
+    padding: 0.5rem;
+    margin: 0rem 0.5rem;
+    border-radius: 10px;
+    border: 1px solid transparent;
+}
+.sotrudnik_nav form input{
+    background: transparent;
+    border: 1px solid transparent;
+    outline: 1px solid transparent;
+    width: 100%;
+    padding-left: 0.5rem;
+    font-size: 15px;
+}
+.sotrudnik_nav form .search_icon{
+    font-size: 20px;
+}
+.sotrudnik_nav form input::placeholder{
+    font-size: 16px;
+}
+.sotrudnik_nav .sotrudnik_child_2 img:nth-child(2){
+    padding-left: 0.5rem;
+}
+.sotrudnik_titles{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.sotrudnik_titles .sotrudnik_btns{
+    width: 33%;
+    display: flex;
+    justify-content: space-between;
+}
+.sotrudnik_titles .sotrudnik_btns button:nth-child(1), .sotrudnik_titles .sotrudnik_btns button:nth-child(2) {
+    padding: 0.5rem;
+    background: transparent;
+    border: 2px solid #68D2FF;
+    color: #83ABF1;
+    border-radius: 10px;
+    font-size: 1rem;
+}
+.sotrudnik_titles .sotrudnik_btns button:nth-child(2){
+    background-size: 20px;
+    background-image: url("../../assets/images/Role.svg");
+    background-position: calc(100%);    
+    background-repeat: no-repeat;
+    padding: 0.5rem 1.5rem 0.5rem 0.5rem;
+}
+.sotrudnik_titles .sotrudnik_btns button:nth-child(3){
+    padding: 0.5rem 1rem;
+    background: #83ABF1;
+    color: #fff;
+    border: 1px solid transparent;
+    border-radius: 10px ;
+}
+.sotrudniki_cards{
+    width: 100%;
+    height: auto;
+    padding-top: 1rem;
+}
+.sotrudniki_cards div:nth-child(1){
+    margin-top: 0;
+}
+.sotrudniki_cards div{
+    display: flex;
+    justify-content: space-between;
+    padding: 0.7rem 0.5rem;
+    background: #FFFFFF;
+    border-radius: 16px;
+    align-items: center;
+    margin-top: 1.5rem;
+    transition: 0.5s ease all;
+}
+.sotrudniki_cards div p{
+    font-weight: 600;
+}
+.sotrudniki_cards div:active{
+    background: #D3E1FF;
+}
+.sotrudniki_cards div:hover{
+    background: #D3E1FF;
+}
+.sotrudniki_bar{
+   /* background: black; */
+   position: absolute;
+   right: 16rem;
+   margin-top: 0.5rem;
+   text-align: center;
+
+    justify-content: center;
+}
+.sotrudniki_bar ul{
+    list-style-type: none;
+    position: absolute;
+    right: 0rem;
+    margin-top: 1rem;
+    width: 120px;
+    background: #83ABF1;
+    padding: 0.5rem 0;
+    border-radius: 10px;
+}
+.sotrudniki_bar ul li{
+    padding: 0.3rem 0rem;
+}
+.sotrudniki_bar ul li a{
+    color: #fff;
+}
+.sutrudniki_bar_uchburchak{
+    width: 0;
+    border-right: 10px solid transparent;
+    border-left: 10px solid transparent;
+    border-bottom: 10px solid #83ABF1;
+    position: relative;
+    right: 2.8rem;
+}
+.sotrudniki_bar ul li a{
+    text-decoration: none;   
+}
+.sotrudniki_bar ul li:hover{
+    background: #fff;
+    color: #D3E1FF;
+    width: 100%;
+}
+.sotrudniki_bar ul li:hover a{
+    color: black;
+}

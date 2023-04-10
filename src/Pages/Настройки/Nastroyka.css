@@ -1,0 +1,147 @@
+.nastroyka{
+    width: 100%;
+    height: auto;
+}
+.nastroyka_cards{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.nastroyka_card_1{
+    background: #fff;
+    width: 65%;
+    height: 300px;
+    padding: 1rem;
+    border-radius: 8px;
+}
+.nastroyka_card_1 a{
+    text-decoration: none;
+    color: #6697ec;
+    border: 1px solid transparent;
+}
+.nastroyka_cards_ul{
+    padding-top: 1rem;
+    display: flex;
+    width: 70%;
+    justify-content: space-between;
+}
+.nastroyka_cards_ul:nth-child(2){
+    width: 40%;
+}
+.nastroyka_cards_ul:nth-child(4){
+    width: 56%;
+}
+.nastroyka_cards_ul:nth-child(5){
+    width: 56%;
+}
+.nastroyka_cards_ul:nth-child(3) select{
+    width: 60%;
+    border-radius: 10px;
+    padding: 0.3rem;
+    outline: 2px solid transparent;
+    font-size: 12px;
+    font-weight: 900;
+}   
+.nastroyka_select{
+    width: 50%;
+}
+.nastroyka_card_2{
+    width: 33%;
+    background: #fff;
+    padding: 0.7rem;
+    border-radius: 8px; 
+    padding: 1rem 1.5rem;
+}
+.nastroyka_card_2 .nastroyka_card_header{
+    display: flex;
+    justify-content: space-between;
+}
+.nastroyka_card_2 .nastroyka_card_header a{
+    text-decoration: none;
+    color: #6697ec;
+}
+.nastroyka_card_2_child{
+    width: 60%;
+    display: flex;
+    align-items: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid #AFAFAF;
+}
+.nastroyka_card_2_child img{
+    padding-right: 1rem;
+}
+.nastroyka_card_2_child .nastroyka_card_2_child_text p{
+    padding: 0;
+    margin: 0;
+}
+.nastroyka_card_2_child .nastroyka_card_2_child_text small{
+    font-size: 13px;
+    color: #AFAFAF;
+}
+.nastroyka_card_2_child_text_2{
+    padding-top: 1rem;
+}
+
+.nastroyka_card_2_child_text_2 p:nth-child(1)::before{
+    content: "";
+    width: 18px;
+    height: 18px;
+    display: inline-block;
+    background-size: 18px;
+    background: url("../../assets/images/Telefon.svg");
+    background-repeat: no-repeat;
+    background-position: calc(0%);
+    padding-right: 1rem;
+    padding-left: 1rem;
+}
+.nastroyka_card_2_child_text_2 p:nth-child(1)::after{
+    content: "";
+    width: 18px;
+    height: 18px;
+    display: inline-block;
+    background: url("../../assets/images/Edit_transparent.svg");
+    background-position: calc(100%);
+    background-repeat: no-repeat;
+    background-size: 18px;
+    padding: 0rem 1rem;
+}
+.nastroyka_card_2_child_text_2 p:nth-child(2){
+    padding-bottom: 1.3rem;
+    border-bottom: 1px solid #AFAFAF;
+    width: 60%;
+}
+.nastroyka_card_2_child_text_2 p:nth-child(2)::before{
+    content: "";
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    background: url("../../assets/images/Mail.svg");
+    background-position: calc(0%) ;
+    background-repeat: no-repeat;
+    padding: 0rem 1rem;
+    position: relative;
+    top: 0.2rem;
+}
+.nastroyka_card_2_child_text_3{
+    padding-bottom: 0rem;
+    border-bottom: 1px solid #AFAFAF;
+    width: 60%;
+}
+.nastroyka_card_2_child_text_3 a{
+    text-decoration: none;
+    color: #6697ec;
+}
+.nastroyka_card_2_child_text_3 p{
+    padding-top: 0.5rem;
+}
+.nastroyka_card_2_text_4{
+    padding-top: 1rem;
+}
+.nastroyka_card_2_text_4 a{
+    text-decoration: none;
+    color: #6697ec;
+}
+.nastroyka_card_2_text_4 p{
+    padding-top: 1rem;
+}

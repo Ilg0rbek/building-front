@@ -1,0 +1,57 @@
+.zayafki{
+    width: 100%;
+    height: auto;
+}
+.zayafki_titles{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.zayafki_titles button:nth-child(1){
+    padding: 0.5rem;
+    border: 2px solid #68D2FF;
+    color: #83ABF1;
+    margin-right: 1rem;
+    border-radius: 10px;
+}
+.zayafki_titles button:nth-child(2){
+    padding: 0.5rem;
+    background: #83ABF1;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    color: #fff;
+    letter-spacing: 1px;
+}
+.zayafki_cards{
+    width: 100%;
+    height: auto;
+}
+.zayafki_cards .zayafki_card:nth-child(1){
+    margin-top: 1rem;
+}
+.zayafki_cards .zayafki_card{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #fff;
+    padding: 0.5rem 0.5rem;
+    margin-top: 1.5rem;
+    border-radius: 10px;
+    transition: 0.5s ease all;
+}
+.zayafki_card_check{
+    display: flex;
+    align-items: center;
+}
+.zayafki_card_check input{
+    margin-right: 0.5rem;
+    padding: 1rem;    
+}
+.zayafki .zayafki_cards .zayafki_card p{
+    position: relative;
+    top: 0.5rem;
+}
+.zayafki .zayafki_cards .zayafki_card:hover{
+    background: #D3E1FF;
+}

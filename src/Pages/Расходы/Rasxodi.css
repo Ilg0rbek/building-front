@@ -1,0 +1,62 @@
+.rasxodi{
+    width: 100%;
+}
+.rasxodi_titles{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.rasxodi_titles .rasxodi_text{
+    display: flex;
+    align-items: center;
+}
+.rasxodi_titles .rasxodi_text h3{
+    padding-right: 1rem;
+}
+.rasxodi_titles .rasxodi_text img{
+    padding-right: 1rem;
+}
+.rasxodi_titles .rasxodi_text p{
+    position: relative;
+    top: 0.6rem;
+}
+.filter{
+    padding: 0.5rem;
+    background: transparent;
+    color: #83ABF1;
+    border: 2px solid #68D2FF;
+    font-size: 1rem;
+    border-radius: 10px;
+    margin-right: 1rem;
+}
+.dovadit{
+    background: #83ABF1;
+    padding: 0.5rem 1rem;
+    color: #fff;
+    border: 1px solid transparent;
+    border-radius: 10px;
+}
+.rasxodi_cards{
+    width: 100%;
+    height: auto;
+}
+.rasxodi_cards .rasxodi_card{
+    width: 100%;
+    padding: 0.3rem 0.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #fff;
+    border-radius: 10px;
+    transition: 0.5s ease all;
+    margin-top: 1rem;
+    text-align: center;
+}
+.rasxodi_card:hover{
+    background: #D3E1FF;
+}
+.rasxodi_cards .rasxodi_card p{
+    padding-top: 0.5rem;
+    font-size: 1rem;
+    letter-spacing: 1px;
+}

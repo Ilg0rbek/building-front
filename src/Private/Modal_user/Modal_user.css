@@ -1,0 +1,62 @@
+.modal_user{
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    text-align: end;
+}
+.modal_align{
+    position: fixed;
+}
+.modal_user_uchburchak{
+    width: 0;
+    border-right: 10px solid transparent;
+    border-left: 10px solid transparent;
+    border-bottom: 10px solid #83ABF1;
+    position: absolute;
+    right: 1rem;
+}
+.modal_user_text{
+    position: absolute;
+    right: 2rem;
+    width: 400px;
+    background: #D3E1FF;
+    margin-top: 1rem;
+    border: 1px solid #0082E8;
+    border-radius: 10px;
+    padding: 0.4rem;
+}
+.modal_user_header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #000;
+    padding: 0.5rem;    
+}
+.modal_user_card_text{
+    display: flex;
+    align-items: center;
+    width: 70%;
+    padding: 0.5rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid black;
+}
+.modal_user_image_text p{
+    margin: 0;
+}
+.modal_user_image img{
+    padding-right: 0.5rem;
+}
+.modal_user_footer{
+    padding-top: 2rem;
+    text-align: start;
+    width: 100%;
+}
+.modal_user_footer p{
+    background: url("../../assets/images/Phone_Actve.svg");
+    background-position: left;
+    padding-left: 1rem;
+    background-repeat: no-repeat;
+    background-size: 20px;
+    padding-left: 2rem;
+}
